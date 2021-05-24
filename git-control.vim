@@ -19,6 +19,7 @@ endfunction
 
 function! Git_Push()
 	let stat = system('git push')
+	echo stat
 endfunction
 
 function! Git_Checkout()
