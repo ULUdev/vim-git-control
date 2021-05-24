@@ -8,13 +8,14 @@ endif
 
 function! Git_Commit()
 	let commit_message = input('commit message: ')
+	echo ''
 	if len(commit_message) < 1
-		echo len(commit_message)
+		echo 'message too short'
 	else
 		let stat = system("git commit -am '" . commit_message . "'")
 		echo stat
 	endif
 endfunction
 
-command GitCommit call Git_Commit()
+command! GitCommit call Git_Commit()
 let g:git_control_loaded = 1
