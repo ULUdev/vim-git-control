@@ -5,7 +5,8 @@
 preferred use is with [plugin-manager](https://gitlab.sokoll.com/moritz/vim-plugin-manager). Just download the `git-control.vim` and move it into
 `~/.vim/plugins`. Then add the plugin to your plugins list.
 ## Usage
-`vim-git-control` comes with three commands:
+`vim-git-control` comes with a few commands:
 - `:GitCommit`: prompts the user for a commit message and commits
-- `:GitPush`: pushes the current branch
+- `:GitPush`: prompts the user for a remote (defaults to origin) and pushes to that remote
 - `:GitCheckout`: prompts the use for a branch to checkout to and creates it if it's not existing
+- `:GitStatus`: shows the git repository status
