@@ -8,12 +8,13 @@ endif
 
 function! Git_Commit()
 	let commit_message = input('commit message: ')
-	if len(commit_message) > 1
-		echoerr 'message must be at least one character long'
+	if len(commit_message) < 1
+		echo len(commit_message)
 	else
 		let stat = system("git commit -am '" . commit_message . "'")
 		echo stat
 	endif
 endfunction
 
+command GitCommit call Git_Commit()
 let g:git_control_loaded = 1
