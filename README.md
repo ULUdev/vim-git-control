@@ -8,5 +8,7 @@ preferred use is with [plugin-manager](https://gitlab.sokoll.com/moritz/vim-plug
 `vim-git-control` comes with a few commands:
 - `:GitCommit`: prompts the user for a commit message and commits
 - `:GitPush`: prompts the user for a remote (defaults to origin) and pushes to that remote
-- `:GitCheckout`: prompts the use for a branch to checkout to and creates it if it's not existing
+- `:GitCheckout`: prompts the use for a branch to checkout to
 - `:GitStatus`: shows the git repository status
+- `:GitBranch`: creates a new branch
+- `:GitLog`: show a git commit log
