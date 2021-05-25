@@ -11,4 +11,4 @@ preferred use is with [plugin-manager](https://gitlab.sokoll.com/moritz/vim-plug
 - `:GitCheckout`: prompts the use for a branch to checkout to
 - `:GitStatus`: shows the git repository status
 - `:GitBranch`: creates a new branch
-- `:GitLog`: show a git commit log
+- `:GitLog`: shows a git commit log
