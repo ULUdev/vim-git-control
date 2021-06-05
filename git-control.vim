@@ -56,7 +56,7 @@ function! Git_Branch()
 endfunction
 
 function! Git_Status()
-	echo system('git status')
+	echo system('git status -s')
 endfunction
 
 function! Git_Log()

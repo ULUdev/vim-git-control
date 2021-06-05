@@ -4,6 +4,8 @@
 ## Installation
 ### [plugin-manager](https://gitlab.sokoll.com/moritz/vim-plugin-manager)
 Download the `git-control.vim` and move it into `~/.vim/plugins`. Then add the plugin to your plugins list.
+### [vim-installer](https://gitlab.sokoll.com/moritz/vim-install)
+download the `.viminstall` file, open vim in the same directory and do `:VimInstall`
 ### Other
 Download the file and move it to some path. Then add `source /path/to/git-control.vim` to your `.vimrc`
 ## Usage

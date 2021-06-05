@@ -1,0 +1,5 @@
+echo 'downloading files...'
+call system("mkdir -p ~/.vim/plugins")
+echo 'installing'
+call system("curl https://gitlab.sokoll.com/moritz/vim-git-control/-/raw/master/git-control.vim > ~/.vim/plugins/git-control.vim")
+echo 'done!'
