@@ -10,14 +10,14 @@ download the `.viminstall` file, open vim in the same directory and do `:VimInst
 Download the file and move it to some path. Then add `source /path/to/git-control.vim` to your `.vimrc`
 ## Usage
 `vim-git-control` comes with some commands:
-- `:GitCommit`: prompts the user for a commit message and commits
-- `:GitPush`: prompts the user for a remote (defaults to origin) and pushes to that remote
-- `:GitCheckout`: prompts the use for a branch to checkout to
-- `:GitStatus`: shows the git repository status
-- `:GitBranch`: creates a new branch
-- `:GitLog`: shows a git commit log
-- `:GitInit`: initalize an empty git repository
-- `:GitRemoteAdd`: add a new remote
-- `:GitStage <file>`: stage a file/folder
-- `:GitUnstage <file>`: unstage a file/folder
-- `:GitRemotes`: show remotes
+- `:GitCommit` - prompts the user for a commit message and commits
+- `:GitPush` - prompts the user for a remote (defaults to origin) and pushes to that remote
+- `:GitCheckout` - prompts the use for a branch to checkout to
+- `:GitStatus` - shows the git repository status
+- `:GitBranch` - creates a new branch
+- `:GitLog` - shows a git commit log
+- `:GitInit` - initalize an empty git repository
+- `:GitRemoteAdd` - add a new remote
+- `:GitStage <file>` - stage a file/folder
+- `:GitUnstage <file>` - unstage a file/folder
+- `:GitRemotes` - show remotes

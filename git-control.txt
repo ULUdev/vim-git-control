@@ -1,0 +1,58 @@
+*git-control.txt*	For Vim version 8.2	Last change: 2021 June 7
+
+Basic git integration for vim				*git-control*
+
+1. Commands				|git-control-commands|
+2. Installation & Updating		|git-control-install|
+
+==============================================================================
+1. Commands					    *git-control-commands*
+
+			*:GitStatus* *git-status*
+:GitStatus		Show the git status in the short message format.
+
+			*:GitLog* *git-log*
+:GitLog			Show the git commit history as one line per commit
+			and a ascii graph.
+
+			*:GitCommit* *git-commit*
+:GitCommit		Prompt the user for a commit message and commit all
+			staged changes with this message (see |git-stage|,
+			|git-push| and |git-unstage|).
+
+			*:GitStage* *git-stage*
+:GitStage {path}	Stage {path} (can be both a file and directory).
+
+			*:GitUnstage* *git-unstage*
+:GitUnstage {path}	Unstage {path} (can be both a file and directory).
+
+			*:GitPush* *git-push*
+:GitPush		Prompt the user for a remote to push to (defaults to
+			'origin') and push changes.
+
+			*:GitBranch* *git-branch*
+:GitBranch		Prompt the user for a name and create a branch with
+			that name.
+
+			*:GitCheckout* *git-checkout*
+:GitCheckout		Prompt the user for a branch to checkout to.
+		
+			*:GitInit* *git-init*
+:GitInit		Initalize a new git repository.
+
+			*:GitRemotes* *git-remotes*
+:GitRemotes		Show all remotes for this repository.
+
+			*:GitRemoteAdd* *git-remote-add*
+:GitRemoteAdd		Prompt the user for a remote name and url and add a new
+			remote using these as parameters
+			(see |git-remote-add|).
+
+==============================================================================
+2. Installation & Updating				*git-control-install*
+
+To install git-control you can use |vim-install|. To update it you can do the
+same. It will overwrite the old one.
+				
+
+ vim:tw=78:ts=8:noet:ft=help:norl:
